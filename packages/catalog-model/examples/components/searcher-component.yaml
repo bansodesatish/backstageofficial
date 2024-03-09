@@ -4,6 +4,7 @@ metadata:
   name: searcher
   annotations:
     backstage.io/kubernetes-id: test-cluster
+    'backstage.io/kubernetes-namespace': default
   description: Searcher
   tags:
     - go
