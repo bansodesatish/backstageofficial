@@ -2,6 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: searcher
+  annotations:
+    backstage.io/kubernetes-id: test-cluster
   description: Searcher
   tags:
     - go
