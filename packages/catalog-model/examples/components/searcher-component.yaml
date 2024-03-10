@@ -12,4 +12,5 @@ metadata:
 spec:
   type: service
   lifecycle: production
+  dependsOn: ['resource:my-cluster']
   owner: user:guest
