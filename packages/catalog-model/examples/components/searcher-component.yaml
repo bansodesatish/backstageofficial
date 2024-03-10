@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: searcher
   annotations:
-    backstage.io/kubernetes-id: my-cluster
+    backstage.io/kubernetes-id: test-cluster
     backstage.io/kubernetes-namespace: default
     backstage.io/kubernetes-label-selector: 'app=mydata'
   description: Searcher
