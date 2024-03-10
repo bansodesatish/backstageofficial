@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: my-cluster
+  annotations:
+    kubernetes.io/api-server: 'https://kubernetes:443'
+    kubernetes.io/auth-provider: 'serviceAccount'
+spec:
+  type: kubernetes-cluster
+  owner: user:guest
